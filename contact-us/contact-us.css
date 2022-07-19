@@ -71,7 +71,12 @@ nav ul li a:active{
 }
 /* --end of menubar-- */
 
-
+#us{
+    color: #F6510F;
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+}
 
 
 
