@@ -169,7 +169,8 @@ nav ul li a:active {
     font-size: 27pt;
   }
   .feedback h1 span{
-    text-decoration: underline 5px #f6510f;
+    border-bottom: 5px solid #f6510f;
+    border-radius: 2px;
   }
   #clientsimg{
     height: 5cm;
@@ -188,6 +189,23 @@ nav ul li a:active {
   #eachclient p{
     font-size: 18pt;
   }
+  /* end of body */
+
+  /* body media queries */
+
+  @media only screen and (max-width:700px) {
+    .imgtxt{
+        position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20pt;
+  font-weight: bolder;
+  text-shadow: 10px 10px 10px black;
+  color: #f6510f;
+  text-align: center;
+  }
+}
 
 /* --start of footer container-- */
 .footercontainer {
