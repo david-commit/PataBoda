@@ -69,7 +69,32 @@ nav ul li a:active{
 }
 /* --end of menubar-- */
 
+.frequent{
+    background-color: white;
+    color: #F6510F;
+    text-align: center;
+    font-size: 32px;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 4px;
+}
 
+
+.faqss{
+    font-size: 22px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+    line-height: 2;
+}
+
+.question{
+    margin-bottom: 20px;
+}
+
+/* hr{
+    color: #F6510F;
+} */
 /* --start of footer container-- */
 
 .footercontainer{
