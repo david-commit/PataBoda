@@ -74,7 +74,7 @@ nav ul li a:active{
     padding: 16px;
     width: 40%;
     margin-left: 500px;
-;
+
   }
 
 h1{
@@ -110,12 +110,6 @@ input[type=text], input[type=password] {
   button:hover {
     opacity:1;
   }
-/* Add padding to container elements */
-
-.signupbtn{
-    width: 50%;
-    margin-left: 90;
-}
 
 
 
