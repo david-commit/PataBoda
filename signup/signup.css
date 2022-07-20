@@ -97,7 +97,7 @@ input[type=text], input[type=password] {
   }
   /* Set a style for all buttons */
 
-button {
+  .signupbtn {
     background-color: #F6510F;
     color: white;
     padding: 14px 20px;
