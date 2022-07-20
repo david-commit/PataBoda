@@ -72,11 +72,22 @@ nav ul li a:active{
 /* --end of menubar-- */
 
 
+.thank{
+    text-align: center;
+}
+.fa-check{
+    color: #f6510f;
+    font-size: 400px;
+}
 
-
-
-
-
+h1{
+color: f6510f;
+padding-bottom: 20px;
+}
+p{
+    color: f6510f;
+    padding-bottom: 60px;
+}
 
 
 
