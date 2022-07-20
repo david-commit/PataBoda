@@ -71,7 +71,11 @@ nav ul li a:active{
 }
 /* --end of menubar-- */
 
-
+.container{
+    padding: 16px;
+    width: 40%;
+    margin-left: 500px;
+}
 
 h1{
     color: #F6510F;
@@ -92,7 +96,7 @@ input[type=text]:focus, input[type=password]:focus {
   }
  /* Set a style for all buttons */
 
- button {
+ .signupbtn{
     background-color: #F6510F;
     color: white;
     padding: 14px 20px;
@@ -102,7 +106,22 @@ input[type=text]:focus, input[type=password]:focus {
     width: 100%;
     opacity: 0.9;
   }
-
+  .remember{
+    display: flex;
+  }
+  .p{
+    float: right;
+    /* margin-left: 500px; */
+    margin-bottom: 10px;
+    padding-left: 450px;
+    color: #F6510F;
+  }
+  signupbtn{
+    opacity:1;
+  }
+  span{
+    color: #F6510F;
+  }
 
 
 
