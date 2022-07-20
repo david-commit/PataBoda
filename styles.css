@@ -24,7 +24,7 @@
   margin: 0;
   font-size: 45px;
   text-decoration: none;
-  color: white;
+  color: #f6510f;
 }
 nav {
   width: 50%;
@@ -73,17 +73,20 @@ nav ul li a:active {
   max-height: 80%;
   overflow: hidden;
   text-indent: -140px;
-  opacity: 0.5;
+  
 }
-
+.bodaimg img{
+    filter: brightness(30%);
+}
 .imgtxt {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 32pt;
-  font-weight: 900;
-  text-shadow: 10px 10px #f6510f;
+  font-weight: bolder;
+  text-shadow: 10px 10px 10px black;
+  color: #f6510f;
 }
 /* end of image properties */
 
@@ -110,7 +113,7 @@ nav ul li a:active {
 }
 .impact div{
     padding: 50px;
-    box-shadow: 10px 10px 10px lightgray;
+    box-shadow: 10px 10px 10px #f6510f;
 }
 #numbers {
   color: #f6510f;
@@ -119,7 +122,13 @@ nav ul li a:active {
 }
 
 /* our values */
+.values{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 70px;
 
+}
 #ourvalues{
   text-align: center;
   font-size: 27pt;
@@ -132,34 +141,48 @@ nav ul li a:active {
     margin-left: auto;
 }
 #valuename{
-    font-size: 26pt;
+    font-size: 24pt;
     color: #f6510f;
 }
 #eachvalue{
     width: 20%;
 }
 #eachvalue p{
-    font-size: 18pt;
+    font-size: 16pt;
 }
 /* end of our values */
 
 /* clients feedback */
-.feedback{
-    margin-left: 100px;
-    margin-right: 100px;
-}
+/* .feedback{
+    
+} */
 .clients{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .feedback h1{
     text-align: center;
     font-size: 27pt;
   }
+  .feedback h1 span{
+    text-decoration: underline 5px #f6510f;
+  }
   #clientsimg{
     height: 5cm;
     width: 8cm;
     border-radius: 50%;
+  }
+  #eachclient{
+    width: 25%;
+    box-shadow: 10px 10px 10px #f6510f;
+    padding: 30px;
+  }
+  #eachclient p{
+    font-size: 18pt;
   }
 
 /* --start of footer container-- */
