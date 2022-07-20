@@ -89,7 +89,18 @@ nav ul li a:active{
 }
 /* end of image properties */
 
+/* text after image */
+.empowerment{
+    text-align: center;
+}
 
+#emptxt1{
+    color: #F6510F;
+    font-size: 35pt;
+}
+#emptxt2{
+    font-size: 20pt;
+}
 
 
 
