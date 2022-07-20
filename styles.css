@@ -116,9 +116,12 @@ nav ul li a:active {
 
 /* our values */
 
-.values {
+#ourvalues {
   text-align: center;
-  font-size: 25pt;
+  font-size: 27pt;
+}
+.thevalues{
+    display: flex;
 }
 
 /* --start of footer container-- */
