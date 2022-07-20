@@ -71,126 +71,74 @@ nav ul li a:active{
 }
 /* --end of menubar-- */
 
-/* ----Start of page content---- */
-#us{
-    color: #F6510F;
-    font-size: 70px;
-    text-align: center;
-    margin: 20px;
-}
-
-.topsection{
+/* ---------START OF BODY CONTAINER------------ */
+.bodyContainer{
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    margin: 30px;
-    
 }
-.topsection h2{
-    text-align: center;
-
-}
-.topsection p{
-    text-align: center;
-}
-.row{
+.sidebar{
+    width: 30%;
+    max-width: 400px;
     background-color: #F6510F;
     color: white;
-    margin: 32px;
-    padding: 18px;
-    border-radius: 7px;
-    font-size: 24px;
-}
-
-.counties{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 46px;
-    font-size: 22px;
-
-}
-.county{
-    display: flex;
-    justify-content:start;
-    margin-top: 46px;
-    font-size: 22px;
-    margin-left: 7%;
-
-}
-
-.social{
-    margin: 4%;
-    display: flex;
-    /* justify-content: space-around; */
-}
-.platforms{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
-    width: 30%;
-    font-size: 20px;
-    font-weight: bold;
+    align-items: center;
+    padding: 4px;
+    text-align: left;
+}
+.sidebar img{
+    width: 35%;
+}
+.sidebar h1{
+    text-align: center;
+}
+.sidebar p{
+    font-size: 13px;
+}
+.sidebar h3{
+    font-size: 21px;
+}
+.bodyContent{
+    margin: 50px 0 0 60px;
+}
+.userContainer{
+    width: 100%;
+    background-color: #e1e1e1;
+    height: 250px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.userInfo{
+    display: flex;
     
 }
-
-#mail{
-    margin: 20px;
-    font-size: 24px;
+.bikeInfo1, .bikeInfo2, .bikeInfo3{
+    width: 35%;
+    padding: 8px;
 }
-
-.form{
-    width: 60%;
-    font-size: 18px;
-    font-weight: 700;
-    background-color: grey;
-    box-sizing: border-box;
-    border-radius: 8px;
+@media only screen and (max-width:700px){
+    .userInfo{
+        display: flex;
+        flex-direction: column;
+    }
+    .bikeInfo1, .bikeInfo2, .bikeInfo3{
+        width: 80%;
+        padding: 8px;
+    }
+    .userContainer{
+        width: 70%;
+        background-color: #e1e1e1;
+        height: auto;
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 40px;
+    }
+    .sidebar{
+        width:50%;
+    }
 }
-
-.labels{
-    padding: 10px;
-    margin-left: 40px;
-    margin-bottom: 20px;
-}
-.name{
-    padding: 5px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ---------END OF BODY CONTAINER--------- */
 
 
 /* --start of footer container-- */

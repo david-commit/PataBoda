@@ -3,10 +3,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up | PataBoda</title>
-    <link rel="stylesheet" href="./signup.css">
-    <script src="https://kit.fontawesome.com/ed4535d2a6.js" crossorigin="anonymous"></script>
-
+    <title>User | PataBoda</title>
+    <link rel="stylesheet" href="./user.css">
 </head>
 <body>
     <header>
@@ -28,37 +26,74 @@
             </div>
         </div>
     </header>
-    
-    <form  style="border:1px solid #ccc">
-        <div class="container">
-          <h1>Sign Up</h1>
-          <label for="lname"><b>First name</b></label>
+<!-- ----END OF MENUBAR-------- -->
 
-          <input type="text" placeholder="First name" name="Fname" required>
-
-          <label for="lname"><b>Last name</b></label>
-          <input type="text" placeholder="Last name" name="Lname" required>
-
-          <label for="email"><b> Email</b></label>
-          <input type="text" placeholder=" Enter Email" name="email" required>
-      
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
-      
-          <label for="psw-confirm"><b>Confirm Password</b></label>
-          <input type="password" placeholder="Confirm Password" name="psw-confirm" required>
-          
-          <label>
-            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> I agree to <a href="#"  style="color:#f6510f">  terms of service and Privacy Policy</a> 
-          </label>
-          
-      
-          <div class="clearfix">
-            <button type="submit" class="signupbtn">CREATE AN ACCOUNT</button>
-          </div>
+<!-- ----------Start of Body Container----------- -->
+    <div class="bodyContainer">
+        <div class="sidebar">
+            <br>
+            <img src="/images/useravatar.png" alt="User Avatar">
+            <h1>Alex Kariuki</h1>
+            <br><br>
+            <div class="sidebarmenu">
+                <h3>Profile</h3>
+                <p>Edit your personal information</p>
+                <br>
+                <h3>My Loans</h3>
+                <p>Your current and previous activity</p>
+                <br>
+                <h3>Mobile Money Accounts</h3>
+                <p>Manage your mobile money accounts</p>
+                <br>
+                <h3>Referals</h3>
+                <p>Get extra earnings by onboarding others</p>
+                <br>
+                <h3>Tracking</h3>
+                <p>Track your items</p>
+                <br><br><br>
+                <h3>Help</h3>
+                <p>Customer Care and FAQs</p>
+            </div>
         </div>
-      </form>
- 
+        <div class="bodyContent">
+            <h1>Loans</h1>
+            <br>
+            <div class="userContainer">
+                <h5>Current Bike</h5>
+                <h1>Honda Ace110 109cc</h1>
+                <br>
+                <div class="userInfo">
+                    <div class="bikeInfo1">
+                        <h3>Initial value:</h3>
+                        <p>Ksh 105,000</p>
+                        <br>
+                        <h3>Remaining duration:</h3>
+                        <p>16 months</p>
+                    </div>
+                    <div class="bikeInfo2">
+                        <h3>Payment plan:</h3>
+                        <p>24 months</p>
+                        <br>
+                        <h3>Chassis number:</h3>
+                        <p>QWERTY12MN</p>
+                    </div>
+                    <div class="bikeInfo3">
+                        <h3>Remaining Balance:</h3>
+                        <p>Ksh 71,000</p>
+                        <br>
+                        <h3>Reg. number:</h3>
+                        <p>KWFT 234Q</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+<!-- ----------Start of Body Container----------- -->
+
+ <!-- START OF FOOTER -->
+ <footer>
     <div class="footercontainer">
         <div class="footer1">
             <div class="newslettertext">
@@ -105,5 +140,4 @@
     </footer>
 <!-- END OF FOOTER -->
 </body>
-<script src="./assets/js/script.js"></script>
 </html>
