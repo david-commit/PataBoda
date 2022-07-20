@@ -71,6 +71,13 @@ nav ul li a:active{
 }
 /* --end of menubar-- */
 
+.bodaimg{
+    max-height: 80%;
+    overflow: hidden;
+    text-indent: -140px;
+    opacity: 0.3;
+}
+
 
 
 
