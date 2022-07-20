@@ -108,8 +108,8 @@ nav ul li a:active {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 .impact div{
     padding: 50px;
@@ -175,9 +175,13 @@ nav ul li a:active {
     height: 5cm;
     width: 8cm;
     border-radius: 50%;
+    text-align: center;
   }
   #eachclient{
     width: 25%;
+    height: 12cm;
+    justify-content: center;
+    align-items: center;
     box-shadow: 10px 10px 10px #f6510f;
     padding: 30px;
   }
