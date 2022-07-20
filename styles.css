@@ -86,6 +86,7 @@ nav ul li a:active{
   transform: translate(-50%, -50%);
   font-size: 32pt;
   font-weight: 900;
+  text-shadow: 10px 10px #F6510F;
 }
 /* end of image properties */
 
@@ -100,6 +101,20 @@ nav ul li a:active{
 }
 #emptxt2{
     font-size: 20pt;
+}
+/* end of text after image  */
+
+.impact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#numbers{
+    color: #F6510F;
+    font-size: 500%;
+    text-shadow: 5px 5px black;
 }
 
 
