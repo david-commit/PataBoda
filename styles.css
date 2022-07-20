@@ -108,6 +108,10 @@ nav ul li a:active {
   margin-left: 100px;
   margin-right: 100px;
 }
+.impact div{
+    padding: 50px;
+    box-shadow: 10px 10px 10px lightgray;
+}
 #numbers {
   color: #f6510f;
   font-size: 500%;
@@ -122,6 +126,20 @@ nav ul li a:active {
 }
 .thevalues{
     display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#valuename{
+    font-size: 26pt;
+    color: #f6510f;
+}
+#eachvalue{
+    width: 20%;
+}
+#eachvalue p{
+    font-size: 18pt;
 }
 
 /* --start of footer container-- */
