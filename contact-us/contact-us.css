@@ -79,6 +79,18 @@ nav ul li a:active{
     margin: 10px;
 }
 
+.topsection{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 30px;
+    
+}
+.topsection h2,p{
+    text-align: center;
+}
+
+
 
 
 
