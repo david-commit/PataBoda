@@ -120,7 +120,7 @@ nav ul li a:active {
 
 /* our values */
 
-#ourvalues {
+#ourvalues{
   text-align: center;
   font-size: 27pt;
 }
@@ -141,6 +141,13 @@ nav ul li a:active {
 #eachvalue p{
     font-size: 18pt;
 }
+/* end of our values */
+
+/* clients feedback */
+.feedback h1{
+    text-align: center;
+    font-size: 27pt;
+  }
 
 /* --start of footer container-- */
 .footercontainer {
