@@ -147,6 +147,32 @@ nav ul li a:active{
     font-size: 26px;
     font-weight:500;
 }
+.choose h1{
+    color: #F6510F;
+    text-align: center;
+    font-size: 40px;
+}
+.choose h2{
+    font-size: 30px;
+    color: #F6510F;
+}
+.choose p{
+    font-size: 26px;
+    font-weight:500;
+}
+.choices{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+#choice{
+    width: 22%;
+    height: 7cm;
+    box-shadow: 10px 10px 10px #F6510F;
+}
 
 
 
