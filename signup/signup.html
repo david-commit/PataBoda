@@ -17,9 +17,9 @@
             <nav>
                 <ul>
                     <li><a href="../index.html">Home</a></li>
-                    <li><a href="../index.html">How it Works</a></li>
-                    <li><a href="../index.html">Products</a></li>
-                    <li><a href="../index.html">Contact Us</a></li>
+                    <li><a href="../how-it-works/how-it-works.html">How it Works</a></li>
+                    <li><a href="../products/products.html">Products</a></li>
+                    <li><a href="../contact-us/contact-us.html">Contact Us</a></li>
                 </ul>
             </nav>
             <div class="navbuttons">
@@ -33,19 +33,19 @@
           <h1>Sign Up</h1>
           <label for="lname"><b>First name</b></label>
 
-          <input type="text" placeholder="First name" name="Fname" required>
+          <input type="text" id="fme" placeholder="First name" name="Fname" required>
 
           <label for="lname"><b>Last name</b></label>
-          <input type="text" placeholder="Last name" name="Lname" required>
+          <input type="text" id="lme" placeholder="Last name" name="Lname" required>
 
           <label for="email"><b> Email</b></label>
-          <input type="text" placeholder=" Enter Email" name="email" required>
+          <input type="text"  id="ml" placeholder=" Enter Email" name="email" required>
       
           <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
+          <input type="password" id="psd" placeholder="Enter Password" name="psw" required>
       
           <label for="psw-confirm"><b>Confirm Password</b></label>
-          <input type="password" placeholder="Confirm Password" name="psw-confirm" required>
+          <input type="password" id="psc" placeholder="Confirm Password" name="psw-confirm" required>
           
           <label>
             <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> I agree to <a href=""  style="color:#f6510f">  terms of service and Privacy Policy</a> 
@@ -53,7 +53,7 @@
           
       
           <div class="clearfix">
-            <a href="../login/login.html"><button type="signupbtn" class="signupbtn"> CREATE AN ACCOUNT </button></a>
+            <a href="../login/login.html"><button type="button" onclick="signup()" class="signupbtn"> CREATE AN ACCOUNT </button></a>
           </div>
           <p class="already">Already have an account? <a href="../login/login.html"> Log in</a></p>
         </div>
@@ -89,8 +89,8 @@
             <div id="section2">
                 <h2>Company</h2>
                 <p><a href="../index.html">Home</a></p>
-                <p><a href="../index.html">Products</a></p>
-                <p><a href="../index.html">Contact Us</a></p>
+                <p><a href="../products/products.html">Products</a></p>
+                <p><a href="../contact-us/contact-us.html">Contact Us</a></p>
             </div>
             <div id="section2">
                 <h2>Others</h2>
@@ -104,5 +104,35 @@
     </footer>
 <!-- END OF FOOTER -->
 </body>
-<script src="./assets/js/script.js"></script>
+<script>
+    document.querySelector('.container').addEventListener('button', function(event){
+    event.preventDefault()
+    let Fname = document.getElementByName('Fname').value
+    let Lname = document.getElementByName('LName').value
+    let email = document.getElementByName('email').value
+    let psw = document.getElementByName('psw').value
+    let pswconfirm = document.getElementByName('psw-confirm').value
+    let remember = document.getElementByName('remember').checked
+    
+        // Create object to store full user data
+    signUpObj = {
+        "Fname":Fname,
+        "Lname":Lname,
+        "email":email,
+        "psw":psw,
+        "pswconfirm":pswconfirm,
+        "remember":remember            
+    }
+
+    // save data from localstorage
+    localStorage.setItem('userSignUp', JSON.stringify(signUpObj))
+    console.log("Signup cred saved")
+    
+    // Get data from localStorage
+    // let userdt = localStorage.getItem('userSignUp')
+    // console.log(userdt)
+
+    })
+</script>
+<script src="./index.js"></script>
 </html>
