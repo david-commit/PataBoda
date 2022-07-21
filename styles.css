@@ -65,6 +65,14 @@ nav ul li a:active {
   font-size: 24px;
   cursor: pointer;
   border-radius: 5px;
+  text-decoration: none;
+}
+#start a{
+    text-decoration: none;
+    color: white;
+}
+#start a:hover{
+    color: black;
 }
 /* --end of menubar-- */
 
@@ -261,6 +269,9 @@ nav ul li a:active {
 #section1 p {
   color: white;
   margin: 18px 0 32px 0;
+}
+#section1 h1, h3{
+    color: #f6510f;
 }
 
 #section2 {
