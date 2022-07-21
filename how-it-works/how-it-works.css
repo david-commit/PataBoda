@@ -69,6 +69,13 @@ nav ul li a:active{
     cursor: pointer;
     border-radius: 5px;
 }
+#start a{
+    text-decoration: none;
+    color: white;
+}
+#start a:hover{
+    color: black;
+}
 /* --end of menubar-- */
 
 
