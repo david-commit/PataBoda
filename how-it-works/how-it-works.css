@@ -78,7 +78,38 @@ nav ul li a:active{
 }
 /* --end of menubar-- */
 
-
+.begin{
+    display: flex;
+    justify-content: space-between;
+}
+.beginimg img{
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 100%;
+    width: 100%;
+}
+.begintxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.begintxt h1{
+    font-size: 27pt;
+}
+.begintxt span{
+    color: #F6510F;
+}
+.begintxt a{
+    text-decoration: none;
+}
+#loanbtn{
+    font-size: 25pt;
+    text-align: center;
+    background-color: #F6510F;
+    border-radius: 8%;
+}
 
 
 
