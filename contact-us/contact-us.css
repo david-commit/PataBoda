@@ -133,6 +133,10 @@ nav ul li a:active{
  }
 .platforms div{
     margin: 5px;
+    
+}
+.platforms div p {
+    color: white;
 }
 
 #mail{

@@ -111,9 +111,7 @@ input[type=text], input[type=password] {
   button:hover {
     opacity:1;
   }
-.already{
-    padding: 20px;
-}
+
 .already a{
     text-decoration: none;
     color: #F6510F;
