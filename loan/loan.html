@@ -4,21 +4,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loan | PataBoda</title>
-    <link rel="stylesheet" href="../loan.css">
+    <link rel="stylesheet" href="loan.css">
 </head>
 <body>
     <header>
         <div class="menubar">
             <div class="logo">
-                <p> <a href="index.html">PataBoda</a></p>
+                <p> <a href="../index.html">PataBoda</a></p>
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="how-it-works.html">How it Works</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../how-it-works/how-it-works.html">How it Works</a></li>
+                    <li><a href="../products/products.html">Products</a></li>
+                    <li><a href="../contact-us/contact-us.html">Contact Us</a></li>
                 </ul>
             </nav>
             <div class="navbuttons">
@@ -29,31 +28,36 @@
 <!-- -------END OF MENUBAR------- -->
 
     <div class="bodycontainer">
-        <h1>Loan Application Form</h1>
         <div class="formcontainer">
-            <form action="#">
+            <h1>Loan Application Form</h1>
+            <hr>
+            <form action="#" id="loanform">
+                <h3><label for="title">Please select title</label></h3>
                 <select name="title" id="title">
                     <option value="Select title" selected disabled>Select title</option>
-                    <option value="mr">Mr</option>
-                    <option value="mrs">Mrs</option>
-                    <option value="miss">Miss</option>
-                </select>
-                <br>
-                <label for="firstName"> First name</label>
+                    <option value="Mr">Mr</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Miss">Miss</option>
+                </select><br><br>
+                <h3><label for="firstName"> First name</label></h3>
                 <input type="text" name="firstName" id="firstName">
-                <br>
-                <label for="surName">Surname</label>
-                <input type="text" name="surName" id="surName">
-                <br>
-                <label for="birthDate">Date of Birth</label>
-                <input type="date" name="birthDate" id="birthDate">
-                <br>
+                <br><br>
+                <h3><label for="surName">Surname</label><br></h3>
+                <input type="text" name="surName" id="surName">               
+                <br><br>
+                <h3><label for="birthDate">Date of Birth</label></h3><br>
+                <input type="date" name="birthDate" id="birthDate" value="selected">
+                <br><br>
+                <h3><label for="identificationDoc">ID Number</label></h3>
+                <input type="text" name="identificationDoc" id="identificationDoc">
+                <br><br>
                 <h3>Gender</h3>
                 <label for="male">Male</label>
                 <input type="radio" name="gender" id="male" value="male">
                 <br>
                 <label for="female">Female</label>
                 <input type="radio" name="gender" id="female" value="female">
+                <br><br>
                 <h3>Marital Status</h3>
                 <label for="single">Single</label>
                 <input type="radio" name="maritalStatus" id="single" value="Single">
@@ -63,22 +67,25 @@
                 <br>
                 <label for="other">Other</label>
                 <input type="radio" name="maritalStatus" id="otherStatus" value="Other">
-                <br>
+                <br><br>
                 <h3>Email</h3>
                 <input type="email" name="email" id="email" placeholder="name@example.com">
+                <br><br>
                 <h3>Phone</h3>
-                <input type="tel" name="phone" id="phone" required>
+                <input type="tel" name="phone" id="phone">
+                <br><br>
                 <h3>Address</h3>
                 <div class="addressbox">
                     <input type="text" id="streetAddress" name="streetAddress"><br>
-                    <label for="streetAddress">Street Address</label><br>
-                    <input type="text" id="ciy" name="city"><br>
-                    <label for="city">Street Address</label><br>
+                    <h5><label for="streetAddress">Street Address</label></h3>
+                    <input type="text" id="city" name="city"><br>
+                    <h5><label for="city">City</label></h5>
                     <input type="text" id="stateProvince" name="statePovince"><br>
-                    <label for="statePovince">Street / Province</label><br>
+                    <h5><label for="statePovince">Street / Province</label></h5>
                     <input type="text" id="zip" name="zip"><br>
-                    <label for="zip">Postal / Zip Code</label><br>
+                    <h5><label for="zip">Postal / Zip Code</label></h5>
                 </div>
+                <br>
                 <h3>How long have you lived in your given address?</h3>
                 <input type="radio" name="addressDuration" id="addressYear1" value="0 - 1 Year">
                 <label for="addressDuration">0 - 1 Year</label><br>
@@ -87,15 +94,32 @@
                 <input type="radio" name="addressDuration" id="addressYear3" value="2 - 3 Years">
                 <label for="addressDuration">2 - 3 Years</label><br>
                 <input type="radio" name="addressDuration" id="addressYear4" value="4+ Years">
-                <label for="addressDuration">4+ Years</label><br>
+                <label for="addressDuration">4+ Years</label>
+                <br><br>
                 <h3>Gross monthly income</h3>
-                <input type="number" name="grossMonthlyIncome" id="grossMonthlyIncome" placeholder="Ksh 15,000">
+                <input type="number" name="grossMonthlyIncome" id="grossMonthlyIncome" placeholder="Ksh 15,000" min="0">
+                <br><br>
                 <h3>Monthly Rent / Mortgage</h3>
-                <input type="number" name="grossMonthlyIncome" id="grossMonthlyIncome" placeholder="Ksh 15,000">
-                <h2>Select Loan Item</h2>
-                <select name="" id="">
-                    <option value=""></option>
+                <input type="number" name="monthlyRent" id="monthlyRent"  placeholder="Ksh 15,000" min="0">
+                <br><br>
+                <h3>Select Loan Item</h3>
+                <select name="loanItem" id="loanItem">
+                    <option value="" disabled selected>Select item</option>
+                    <option value="Honda Ace Tuff | Ksh 75,000">Honda Ace Tuff | Ksh 75,000</option>
+                    <option value="Honda Ace CB125 | Ksh 80,000">Honda Ace CB125 | Ksh 80,000</option>
+                    <option value="Honda XL125 | Ksh 85,000">Honda XL125 | Ksh 85,000</option>
+                    <option value="Honda Ace 110 | Ksh 90,000">Honda Ace 110 | Ksh 90,000</option>
                 </select>
+                <br><br>
+                <h3>Down Payment Amount</h3>
+                <input type="number" name="downPayment" id="downPayment"  placeholder="Ksh 15,000" min="0">
+                <br><br>
+                <input type="checkbox" name="accurateInfo" id="accurateInfo" checked>
+                <label for="accurateInfo">I hereby agree that the information given is true, accurate and complete as of the date of this application submission.</label>
+                <br><br>
+                <div class="submitContainer">
+                    <button type="submit" id="submitApplication">Submit Application</button>
+                </div>
             </form>
         </div>
 
@@ -124,23 +148,22 @@
             </div>
             <div id="section2">
                 <h2>Counties</h2>
-                <p><a href="contact-us.html">Nairobi</a></p>
-                <p><a href="contact-us.html">Mombasa</a></p>
-                <p><a href="contact-us.html">Kisumu</a></p>
-                <p><a href="contact-us.html">Kiambu</a></p>
-                <p><a href="contact-us.html">Taita Taveta</a></p>
-                <p><a href="contact-us.html">Kajiado</a></p>
+                <p><a href="../contact-us/contact-us.html">Nairobi</a></p>
+                <p><a href="../contact-us/contact-us.html">Mombasa</a></p>
+                <p><a href="../contact-us/contact-us.html">Kisumu</a></p>
+                <p><a href="../contact-us/contact-us.html">Kiambu</a></p>
+                <p><a href="../contact-us/contact-us.html">Taita Taveta</a></p>
+                <p><a href="../contact-us/contact-us.html">Kajiado</a></p>
             </div>
             <div id="section2">
                 <h2>Company</h2>
-                <p><a href="index.html">Home</a></p>
-                <p><a href="about-us.html">About Us</a></p>
-                <p><a href="products.html">Products</a></p>
-                <p><a href="contact-us.html">Contact Us</a></p>
+                <p><a href="../index.html">Home</a></p>
+                <p><a href="../products/products.html">Products</a></p>
+                <p><a href="../contact-us/contact-us.html">Contact Us</a></p>
             </div>
             <div id="section2">
                 <h2>Others</h2>
-                <p><a href="#">FAQs</a></p>
+                <p><a href="../FAQs/faqs.html">FAQs</a></p>
                 <p><a href="#">Terms of Service</a></p>
                 <p><a href="#">Privacy and Policy</a></h3>
             </div>
@@ -150,5 +173,5 @@
     </footer>
 <!-- END OF FOOTER -->
 </body>
-<script src="./assets/js/script.js"></script>
+<script src="./script.js"></script>
 </html>
