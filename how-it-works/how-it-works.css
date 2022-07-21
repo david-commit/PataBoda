@@ -110,6 +110,43 @@ nav ul li a:active{
     background-color: #F6510F;
     border-radius: 8%;
 }
+.get{
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+}
+.get h1{
+    color: #F6510F;
+    text-align: center;
+    font-size: 40px;
+}
+.get p{
+        text-align: center;
+        font-size: 22px;
+}
+.procedure{
+    margin-left: 100px;
+}
+.procedure h1{
+    color: #F6510F;
+    font-size: 32px;
+    text-align: start;
+}
+.procedure p{
+    text-align: start;
+    font-size: 26px;
+    font-weight:500;
+}
+.checklist h1{
+    color: #F6510F;
+    text-align: center;
+    font-size: 40px;
+}
+#checklistul{
+    margin-left: 100px;
+    font-size: 26px;
+    font-weight:500;
+}
 
 
 
