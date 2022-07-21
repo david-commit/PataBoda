@@ -13,7 +13,7 @@
     <header>
         <div class="menubar">
             <div class="logo">
-                <p> <a href="index.html">PataBoda</a></p>
+                <p> <a href="../index.html">PataBoda</a></p>
             </div>
             <nav>
                 <ul>
@@ -72,38 +72,38 @@
                 <p><i class="fa-solid fa-envelope"></i>nairobi.pataboda@gmail.com</p>
             </div>
             <div>
-                <h3>Nairobi</h3>
+                <h3>Mombasa</h3>
                 <p><i class="fa-solid fa-phone"></i>0200123445</p>
-                <p><i class="fa-solid fa-envelope"></i>nairobi.pataboda@gmail.com</p>
+                <p><i class="fa-solid fa-envelope"></i>mombasa.pataboda@gmail.com</p>
             </div>
             <div>
-                <h3>Nairobi</h3>
+                <h3>kisumu</h3>
                 <p><i class="fa-solid fa-phone"></i>0200123445</p>
-                <p><i class="fa-solid fa-envelope"></i>nairobi.pataboda@gmail.com</p>
+                <p><i class="fa-solid fa-envelope"></i>kisumu.pataboda@gmail.com</p>
             </div>
         </div>
         <div class="counties">
             <div>
-                <h3>Nairobi</h3>
+                <h3>Kiambu</h3>
                 <p><i class="fa-solid fa-phone"></i>0200123445</p>
-                <p><i class="fa-solid fa-envelope"></i>nairobi.pataboda@gmail.com</p>
+                <p><i class="fa-solid fa-envelope"></i>kiambu.pataboda@gmail.com</p>
             </div>
             <div>
-                <h3>Nairobi</h3>
+                <h3>Taita Taveta</h3>
                 <p><i class="fa-solid fa-phone"></i>0200123445</p>
-                <p><i class="fa-solid fa-envelope"></i>nairobi.pataboda@gmail.com</p>
+                <p><i class="fa-solid fa-envelope"></i>taitataveta.pataboda@gmail.com</p>
             </div>
             <div>
-                <h3>Nairobi</h3>
+                <h3>Kajiado</h3>
                 <p><i class="fa-solid fa-phone"></i>0200123445</p>
-                <p><i class="fa-solid fa-envelope"></i>nairobi.pataboda@gmail.com</p>
+                <p><i class="fa-solid fa-envelope"></i>kajiado.pataboda@gmail.com</p>
             </div>
         </div>
         <div class="county">
             <div>
-                <h3>Nairobi</h3>
+                <h3>Nakuru</h3>
                 <p><i class="fa-solid fa-phone"></i>0200123445</p>
-                <p><i class="fa-solid fa-envelope"></i>nairobi.pataboda@gmail.com</p>
+                <p><i class="fa-solid fa-envelope"></i>nakuru.pataboda@gmail.com</p>
             </div>
         </div>
 
@@ -123,15 +123,15 @@
                 </div>
             </div>
 
-            <div class="form">
+            <div class="form" >
                 <h3 id="mail">Email us</h3>
-                <form action="fillform">
+                <form action="fillform" onsubmit="return false;" >
                     <div class="labels">
                         <div>
                             <label for="name">Name</label>
                         </div>
                         <div>
-                            <input type="text" id="fullname" placeholder="Enter your name..">
+                            <input type="text" id="fullname" placeholder="Enter your name.." required>
                         </div>
                     </div>
                     <div class="labels">
@@ -139,7 +139,7 @@
                             <label for="name">Email Address</label>
                         </div>
                         <div>
-                            <input type="text" id="fullname" placeholder="Enter your email..">
+                            <input type="text" id="fullname" placeholder="Enter your email.." required>
                         </div>
                     </div>
                     <div class="labels">
@@ -147,7 +147,7 @@
                             <label for="name">Phone Number</label>
                         </div>
                         <div>
-                            <input type="number" id="fullname" placeholder="Enter phone number..">
+                            <input type="number" id="fullname" placeholder="Enter phone number.." required>
                         </div>
                     </div>
                     <div class="labels">
@@ -155,12 +155,16 @@
                             <label for="name">Message</label>
                         </div>
                         <div>
-                            <textarea type="text" id="usermessage" placeholder="write message" style="height: 200px;"></textarea>
+                            <textarea type="text" id="usermessage" placeholder="write message" style="height: 200px; width: 500;"></textarea>
                         </div>
+                    </div>
+                    <div>
+                      <input type="submit" id="btn" onclick="theSend();" value="submit">
                     </div>
                 </form>
             </div>
         </div>
+       <script src="contact.js"></script> 
     </body>
 
     <!-- START OF FOOTER -->

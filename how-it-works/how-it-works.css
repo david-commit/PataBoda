@@ -80,7 +80,7 @@ nav ul li a:active{
 
 .begin{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 88%;
     overflow: hidden;
 }
@@ -96,8 +96,6 @@ nav ul li a:active{
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 55%;
-    padding-left: 100px;
 }
 .begintxt h1{
     font-size: 27pt;
@@ -114,6 +112,7 @@ nav ul li a:active{
     background-color: #F6510F;
     border-radius: 8%;
 }
+
 #loanbtn a{
     color: black;
 }
@@ -189,6 +188,7 @@ nav ul li a:active{
     height: 7cm;
     box-shadow: 10px 10px 10px #F6510F;
 }
+
 
 /* --start of footer container-- */
 .footercontainer{

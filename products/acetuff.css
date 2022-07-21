@@ -71,103 +71,48 @@ nav ul li a:active{
 }
 /* --end of menubar-- */
 
-/* ----Start of page content---- */
-#us{
+
+/* ----START OF ACE TUFF PRODUCT---- */
+#aceh1{
     color: #F6510F;
-    font-size: 70px;
     text-align: center;
-    margin: 20px;
-}
-
-.topsection{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
     margin: 30px;
-    
+    font-size: 36px;
 }
-.topsection h2{
+.ace{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+.ace1{
+    width: 50%;
+}
+.ace2{
+    width: 50%;
+}
+.ace1 img, .ace2 img{
+    width:100%;
+}
+.specstable{
+    width: 60%;
+    margin: 20px auto;
+}
+.specstable h2{
     text-align: center;
-
-}
-.topsection p{
-    text-align: center;
-}
-.row{
-    background-color: #F6510F;
-    color: white;
-    margin: 32px;
-    padding: 18px;
-    border-radius: 7px;
-    font-size: 24px;
-}
-
-.counties{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 46px;
-    font-size: 22px;
-
-}
-.county{
-    display: flex;
-    justify-content:start;
-    margin-top: 46px;
-    font-size: 22px;
-    margin-left: 7%;
-
-}
-
-.social{
-    margin: 4%;
-    display: flex;
-    /* justify-content: space-around; */
-}
-.platforms{
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
-    width: 30%;
-    font-size: 20px;
-    font-weight: bold;
-    
-}
-
-
-#mail{
-    margin: 20px;
-    font-size: 24px;
-}
-
-.form{
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
-    font-weight: 700;
-    background-color: grey;
-    box-sizing: border-box;
-    border-radius: 8px;
-    padding: 0%;
-}
-
-.labels{
-    padding: 10px;
-    margin-left: 40px;
     margin-bottom: 20px;
 }
-.name{
-    padding: 5px;
+table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
 }
-#btn{
-    margin-left: 70%;
-    margin-bottom: 20px;
-    padding: 14px;
-    border-radius: 5px;
-    background-color: #F6510F;
-    color: white;
-    font-size: large;
+td{
+    width: 300px;
 }
 
+/* ----END OF ACE TUFF PRODUCT---- */
 
 
 /* --start of footer container-- */

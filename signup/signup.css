@@ -73,7 +73,8 @@ nav ul li a:active{
 .container {
     padding: 16px;
     width: 40%;
-    margin-left: 500px;
+    margin-left: auto;
+    margin-right: auto;
 
   }
 
@@ -110,8 +111,13 @@ input[type=text], input[type=password] {
   button:hover {
     opacity:1;
   }
-
-
+.already{
+    padding: 20px;
+}
+.already a{
+    text-decoration: none;
+    color: #F6510F;
+}
 
 /* --start of footer container-- */
 .footercontainer{
