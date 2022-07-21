@@ -80,7 +80,9 @@ nav ul li a:active{
 
 .begin{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 88%;
+    overflow: hidden;
 }
 .beginimg img{
     margin-left: 60px;
@@ -94,6 +96,8 @@ nav ul li a:active{
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 55%;
+    padding-left: 100px;
 }
 .begintxt h1{
     font-size: 27pt;
@@ -110,9 +114,13 @@ nav ul li a:active{
     background-color: #F6510F;
     border-radius: 8%;
 }
+#loanbtn a{
+    color: black;
+}
 .get{
     background-color: black;
     color: white;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 .get h1{
@@ -125,7 +133,9 @@ nav ul li a:active{
         font-size: 22px;
 }
 .procedure{
-    margin-left: 100px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .procedure h1{
     color: #F6510F;
@@ -137,13 +147,19 @@ nav ul li a:active{
     font-size: 26px;
     font-weight:500;
 }
+#step1 a{
+    color: #F6510F;
+    text-decoration: none;
+}
 .checklist h1{
     color: #F6510F;
     text-align: center;
     font-size: 40px;
 }
 #checklistul{
-    margin-left: 100px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 26px;
     font-weight:500;
 }
@@ -164,8 +180,8 @@ nav ul li a:active{
     display: flex;
     justify-content: space-between;
     width: 88%;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 #choice{
@@ -173,41 +189,6 @@ nav ul li a:active{
     height: 7cm;
     box-shadow: 10px 10px 10px #F6510F;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* --start of footer container-- */
 .footercontainer{
@@ -267,6 +248,9 @@ nav ul li a:active{
     margin: 18px 0 32px 0;
 }
 
+#section1 h1, h3{
+    color: #F6510F;
+}
 #section2{
     width: 20%;
 }
