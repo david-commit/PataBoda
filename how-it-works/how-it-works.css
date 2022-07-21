@@ -1,73 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
 
-*{
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    /* overflow: hidden; */
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  /* overflow: hidden; */
 }
 /* --start of menubar-- */
-.menubar{
-    display:flex;
-    background-color: black;
-    color: white;
-    justify-content: space-evenly;
-    width: 100%;
+.menubar {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-evenly;
+  width: 100%;
 }
-.logo{
-    width: 20%;
-    margin-left: 20px;
-    margin-top: auto;
-    margin-bottom: auto;
+.logo {
+  width: 20%;
+  margin-left: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
-.logo p a{
-    font-weight: 700;
-    margin: 0;
-    font-size: 45px;
-    text-decoration: none;
-    color: white;
+.logo p a {
+  font-weight: 700;
+  margin: 0;
+  font-size: 45px;
+  text-decoration: none;
+  color: #f6510f;
 }
-nav{
-    width: 50%;
-    margin-top: auto;
-    margin-bottom: auto;
-    position: relative;
-    /* right: -5%; */
+nav {
+  width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: relative;
+  /* right: -5%; */
 }
-nav ul{
-    list-style: none;
+nav ul {
+  list-style: none;
 }
 nav ul li {
-    float: left;
-    padding: 10px;
-    
+  float: left;
+  padding: 10px;
 }
 nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    font-size: 18px;
-        
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
 }
-nav ul li a:hover{
-    color: #F6510F;
-  
+nav ul li a:hover {
+  color: #f6510f;
 }
-nav ul li a:active{
-    color: white;
-    text-decoration: underline;
+nav ul li a:active {
+  color: white;
+  text-decoration: underline;
 }
 
-#start{
-    color: white;
-    background-color: #F6510F;
-    border: none;
-    padding: 12px 15px;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    font-weight: 700;
-    font-size: 24px;
-    cursor: pointer;
-    border-radius: 5px;
+#start {
+  color: white;
+  background-color: #f6510f;
+  border: none;
+  padding: 12px 15px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-weight: 700;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
 }
 #start a{
     text-decoration: none;
@@ -81,21 +79,25 @@ nav ul li a:active{
 .begin{
     display: flex;
     justify-content: space-between;
-    width: 88%;
+    width: 90%;
     overflow: hidden;
+    margin: 100px auto;
 }
-.beginimg img{
-    margin-left: 60px;
-    margin-right: 60px;
-    height: 100%;
-    width: 100%;
+.beginimg{
+    width: 50%;
 }
+
 .begintxt{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 50%;
+}
+.beginimg img{
+   margin: 0 auto;
+    width: 90%;
 }
 .begintxt h1{
     font-size: 27pt;
@@ -107,10 +109,12 @@ nav ul li a:active{
     text-decoration: none;
 }
 #loanbtn{
-    font-size: 25pt;
+    margin: 30px;
+    padding: 10px;
+    font-size: 20pt;
     text-align: center;
     background-color: #F6510F;
-    border-radius: 8%;
+    border-radius: 8px;
 }
 
 #loanbtn a{
@@ -150,16 +154,18 @@ nav ul li a:active{
     color: #F6510F;
     text-decoration: none;
 }
+.checklist{
+    margin: 100px auto;
+}
 .checklist h1{
     color: #F6510F;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
 }
 #checklistul{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 26px;
+    width: 75%;
+    margin: 10px auto;
+    font-size: 24px;
     font-weight:500;
 }
 .choose h1{
@@ -172,15 +178,14 @@ nav ul li a:active{
     color: #F6510F;
 }
 .choose p{
-    font-size: 26px;
+    font-size: 22px;
     font-weight:500;
 }
 .choices{
     display: flex;
-    justify-content: space-between;
-    width: 88%;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: space-around;
+    width: 80%;
+    margin: 10px auto 100px auto;
     
 }
 #choice{

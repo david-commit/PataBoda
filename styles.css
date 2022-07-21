@@ -80,8 +80,6 @@ nav ul li a:active {
 .bodaimg {
   max-height: 80%;
   overflow: hidden;
-  text-indent: -140px;
-  
 }
 .bodaimg img{
     filter: brightness(30%);
@@ -95,12 +93,15 @@ nav ul li a:active {
   font-weight: bolder;
   text-shadow: 10px 10px 10px black;
   color: #f6510f;
+  text-align: center;
+
 }
 /* end of image properties */
 
 /* text after image */
 .empowerment {
   text-align: center;
+  margin: 60px 0 100px 0;
 }
 
 #emptxt1 {
@@ -114,19 +115,21 @@ nav ul li a:active {
 
 .impact {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin: 0 auto;
+  width: 70%;
 }
 .impact div{
-    padding: 50px;
+    padding: 30px;
     box-shadow: 10px 10px 10px #f6510f;
+    width: auto;
 }
 #numbers {
   color: #f6510f;
   font-size: 500%;
   text-shadow: 5px 5px black;
+  
 }
 
 /* our values */
@@ -168,7 +171,7 @@ nav ul li a:active {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 88%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -181,10 +184,10 @@ nav ul li a:active {
     border-radius: 2px;
   }
   #clientsimg{
-    height: 5cm;
-    width: 8cm;
+    width: 80%;
     border-radius: 50%;
-    text-align: center;
+    margin: 20px;
+    
   }
   #eachclient{
     width: 25%;
@@ -195,7 +198,7 @@ nav ul li a:active {
     padding: 30px;
   }
   #eachclient p{
-    font-size: 18pt;
+    font-size: 16pt;
   }
   /* end of body */
 
