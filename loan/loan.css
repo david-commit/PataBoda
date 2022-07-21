@@ -71,41 +71,42 @@ nav ul li a:active{
 }
 /* --end of menubar-- */
 
+/* -----START OF LOAN BODY---- */
+body{
+    background-color: white;
+}
 
 
+.bodycontainer h1{
+    text-align: center;
+    margin: 30px 0;
+    color: #F6510F;
+}
+.formcontainer{
+    width: 55%;
+    max-width: 500px;
+    margin: 30px auto;
+    border: #F6510F 1px solid;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 12px;
+}
+#loanform{
+    margin: 30px 0;
+    padding-left: 28px;
+}
+#loanform input {
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
 
+#loanform h3, h5{
+    padding: 4px 0;
+    color: #F6510F;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* -----END OF LOAN BODY---- */
 
 
 /* --start of footer container-- */
