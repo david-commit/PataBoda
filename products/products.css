@@ -24,7 +24,7 @@
     margin: 0;
     font-size: 45px;
     text-decoration: none;
-    color: white;
+    color: #F6510F;
 }
 nav{
     width: 50%;
@@ -72,40 +72,54 @@ nav ul li a:active{
 /* --end of menubar-- */
 
 
+/* ==START OF GRID: NEW */
+.productsBodyContainer h1{
+    text-align: center;
+    margin: 30px;
+    color: #F6510F;
+}
+.productgrid{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    
+}
+.grid1{
+    width: 30%;
+}
+.grid1 img{
+    width: 100%;
+    margin: 10px 0;
+}
+.grid2{
+    width: 30%;
+}
+.grid2 img{
+    width: 100%;
+    margin: 10px 0;
+}
+.grid3{
+    width: 30%;
+}
+.grid3 img{
+    width: 100%;
+    margin: 10px 0;
+}
+.grid1 a{
+    text-decoration: none;
+    color: black;
+}
+.grid1 a:hover{
+    text-decoration: none;
+    color: #F6510F;
+}
+.grid2:hover, .grid3:hover{
+    text-decoration: none;
+    color: #F6510F;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ==end OF GRID: NEW */
 
 
 /* --start of footer container-- */

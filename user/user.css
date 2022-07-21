@@ -86,6 +86,11 @@ nav ul li a:active{
     align-items: center;
     padding: 4px;
     text-align: left;
+    text-decoration: none;
+}
+#customApply{
+    color: white;
+    text-decoration: none;
 }
 .sidebar img{
     width: 35%;

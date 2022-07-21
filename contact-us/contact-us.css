@@ -24,7 +24,7 @@
     margin: 0;
     font-size: 45px;
     text-decoration: none;
-    color: white;
+    color: #F6510F;
 }
 nav{
     width: 50%;
@@ -74,9 +74,9 @@ nav ul li a:active{
 /* ----Start of page content---- */
 #us{
     color: #F6510F;
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
-    margin: 20px;
+    margin: 50px;
 }
 
 .topsection{
@@ -84,7 +84,8 @@ nav ul li a:active{
     justify-content: space-around;
     flex-direction: row;
     margin: 30px;
-    
+    width: 80%;
+    margin: auto;
 }
 .topsection h2{
     text-align: center;
@@ -105,92 +106,80 @@ nav ul li a:active{
 .counties{
     display: flex;
     justify-content: space-around;
-    margin-top: 46px;
+    margin: 60px auto;
     font-size: 22px;
-
+    width: 70%;
 }
-.county{
-    display: flex;
-    justify-content:start;
-    margin-top: 46px;
-    font-size: 22px;
-    margin-left: 7%;
-
+.counties div{
+    width: 30%;
 }
+
 
 .social{
-    margin: 4%;
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    background-color: black;
+    height: 400px;
 }
 .platforms{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
+    align-items: center;
     width: 30%;
-    font-size: 20px;
-    font-weight: bold;
-    
+    font-size: 24px;
+    color: white;
+ }
+.platforms div{
+    margin: 5px;
 }
 
 #mail{
     margin: 20px;
     font-size: 24px;
+    text-align: center;
 }
 
 .form{
-    width: 60%;
+    width: 550px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     font-size: 18px;
     font-weight: 700;
-    background-color: grey;
+    background-color: #F6510F;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 12px;
+    padding: 20px;
+}
+#fullname{
+    border: 1px solid lightgray;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
 }
 
 .labels{
     padding: 10px;
-    margin-left: 40px;
-    margin-bottom: 20px;
+
 }
 .name{
     padding: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.btnclass{
+    display: flex;
+}
+#btn{
+    margin:14px auto;
+    padding: 8px 18px;
+    border-radius: 5px;
+    background-color: #F6510F;
+    color: white;
+    font-size: large;
+    border: white 1px solid;
+}
 
 
 /* --start of footer container-- */

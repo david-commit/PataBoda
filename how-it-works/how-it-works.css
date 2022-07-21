@@ -1,111 +1,198 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
 
-*{
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    /* overflow: hidden; */
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  /* overflow: hidden; */
 }
 /* --start of menubar-- */
-.menubar{
-    display:flex;
-    background-color: black;
-    color: white;
-    justify-content: space-evenly;
-    width: 100%;
+.menubar {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-evenly;
+  width: 100%;
 }
-.logo{
-    width: 20%;
-    margin-left: 20px;
-    margin-top: auto;
-    margin-bottom: auto;
+.logo {
+  width: 20%;
+  margin-left: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
-.logo p a{
-    font-weight: 700;
-    margin: 0;
-    font-size: 45px;
-    text-decoration: none;
-    color: white;
+.logo p a {
+  font-weight: 700;
+  margin: 0;
+  font-size: 45px;
+  text-decoration: none;
+  color: #f6510f;
 }
-nav{
-    width: 50%;
-    margin-top: auto;
-    margin-bottom: auto;
-    position: relative;
-    /* right: -5%; */
+nav {
+  width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: relative;
+  /* right: -5%; */
 }
-nav ul{
-    list-style: none;
+nav ul {
+  list-style: none;
 }
 nav ul li {
-    float: left;
-    padding: 10px;
-    
+  float: left;
+  padding: 10px;
 }
 nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    font-size: 18px;
-        
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
 }
-nav ul li a:hover{
-    color: #F6510F;
-  
+nav ul li a:hover {
+  color: #f6510f;
 }
-nav ul li a:active{
-    color: white;
-    text-decoration: underline;
+nav ul li a:active {
+  color: white;
+  text-decoration: underline;
 }
 
-#start{
+#start {
+  color: white;
+  background-color: #f6510f;
+  border: none;
+  padding: 12px 15px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-weight: 700;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+#start a{
+    text-decoration: none;
     color: white;
-    background-color: #F6510F;
-    border: none;
-    padding: 12px 15px;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    font-weight: 700;
-    font-size: 24px;
-    cursor: pointer;
-    border-radius: 5px;
+}
+#start a:hover{
+    color: black;
 }
 /* --end of menubar-- */
 
+.begin{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    overflow: hidden;
+    margin: 100px auto;
+}
+.beginimg{
+    width: 50%;
+}
 
+.begintxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+.beginimg img{
+   margin: 0 auto;
+    width: 90%;
+}
+.begintxt h1{
+    font-size: 27pt;
+}
+.begintxt span{
+    color: #F6510F;
+}
+.begintxt a{
+    text-decoration: none;
+}
+#loanbtn{
+    margin: 30px;
+    padding: 10px;
+    font-size: 20pt;
+    text-align: center;
+    background-color: #F6510F;
+    border-radius: 8px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#loanbtn a{
+    color: black;
+}
+.get{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.get h1{
+    color: #F6510F;
+    text-align: center;
+    font-size: 40px;
+}
+.get p{
+        text-align: center;
+        font-size: 22px;
+}
+.procedure{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.procedure h1{
+    color: #F6510F;
+    font-size: 32px;
+    text-align: start;
+}
+.procedure p{
+    text-align: start;
+    font-size: 26px;
+    font-weight:500;
+}
+#step1 a{
+    color: #F6510F;
+    text-decoration: none;
+}
+.checklist{
+    margin: 100px auto;
+}
+.checklist h1{
+    color: #F6510F;
+    text-align: center;
+    font-size: 50px;
+}
+#checklistul{
+    width: 75%;
+    margin: 10px auto;
+    font-size: 24px;
+    font-weight:500;
+}
+.choose h1{
+    color: #F6510F;
+    text-align: center;
+    font-size: 40px;
+}
+.choose h2{
+    font-size: 30px;
+    color: #F6510F;
+}
+.choose p{
+    font-size: 22px;
+    font-weight:500;
+}
+.choices{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 10px auto 100px auto;
+    
+}
+#choice{
+    width: 22%;
+    height: 7cm;
+    box-shadow: 10px 10px 10px #F6510F;
+}
 
 
 /* --start of footer container-- */
@@ -166,6 +253,9 @@ nav ul li a:active{
     margin: 18px 0 32px 0;
 }
 
+#section1 h1, h3final{
+    color: #F6510F;
+}
 #section2{
     width: 20%;
 }
