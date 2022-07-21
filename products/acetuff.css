@@ -70,54 +70,50 @@ nav ul li a:active{
     border-radius: 5px;
 }
 /* --end of menubar-- */
-.container {
-    padding: 16px;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
 
-  }
 
-h1{
+/* ----START OF ACE TUFF PRODUCT---- */
+#aceh1{
     color: #F6510F;
     text-align: center;
+    margin: 30px;
+    font-size: 36px;
+}
+.ace{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+.ace1{
+    width: 50%;
+}
+.ace2{
+    width: 50%;
+}
+.ace1 img, .ace2 img{
+    width:100%;
+}
+.specstable{
+    width: 60%;
+    margin: 20px auto;
+}
+.specstable h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    width: 300px;
 }
 
-/* Full-width input fields */
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-  }
-  input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-  }
-  /* Set a style for all buttons */
+/* ----END OF ACE TUFF PRODUCT---- */
 
-  .signupbtn {
-    background-color: #F6510F;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-  }
-  button:hover {
-    opacity:1;
-  }
-.already{
-    padding: 20px;
-}
-.already a{
-    text-decoration: none;
-    color: #F6510F;
-}
 
 /* --start of footer container-- */
 .footercontainer{

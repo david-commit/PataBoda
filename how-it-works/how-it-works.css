@@ -69,43 +69,125 @@ nav ul li a:active{
     cursor: pointer;
     border-radius: 5px;
 }
+#start a{
+    text-decoration: none;
+    color: white;
+}
+#start a:hover{
+    color: black;
+}
 /* --end of menubar-- */
 
+.begin{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    overflow: hidden;
+}
+.beginimg img{
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 100%;
+    width: 100%;
+}
+.begintxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.begintxt h1{
+    font-size: 27pt;
+}
+.begintxt span{
+    color: #F6510F;
+}
+.begintxt a{
+    text-decoration: none;
+}
+#loanbtn{
+    font-size: 25pt;
+    text-align: center;
+    background-color: #F6510F;
+    border-radius: 8%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#loanbtn a{
+    color: black;
+}
+.get{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.get h1{
+    color: #F6510F;
+    text-align: center;
+    font-size: 40px;
+}
+.get p{
+        text-align: center;
+        font-size: 22px;
+}
+.procedure{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.procedure h1{
+    color: #F6510F;
+    font-size: 32px;
+    text-align: start;
+}
+.procedure p{
+    text-align: start;
+    font-size: 26px;
+    font-weight:500;
+}
+#step1 a{
+    color: #F6510F;
+    text-decoration: none;
+}
+.checklist h1{
+    color: #F6510F;
+    text-align: center;
+    font-size: 40px;
+}
+#checklistul{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+    font-weight:500;
+}
+.choose h1{
+    color: #F6510F;
+    text-align: center;
+    font-size: 40px;
+}
+.choose h2{
+    font-size: 30px;
+    color: #F6510F;
+}
+.choose p{
+    font-size: 26px;
+    font-weight:500;
+}
+.choices{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#choice{
+    width: 22%;
+    height: 7cm;
+    box-shadow: 10px 10px 10px #F6510F;
+}
 
 
 /* --start of footer container-- */
@@ -166,6 +248,9 @@ nav ul li a:active{
     margin: 18px 0 32px 0;
 }
 
+#section1 h1, h3final{
+    color: #F6510F;
+}
 #section2{
     width: 20%;
 }
