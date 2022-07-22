@@ -110,11 +110,12 @@ nav ul li a:active {
 }
 #loanbtn{
     margin: 30px;
-    padding: 10px;
+    padding: 12px 15px;
     font-size: 20pt;
     text-align: center;
     background-color: #F6510F;
     border-radius: 8px;
+    border: none;
 }
 
 #loanbtn a{
