@@ -31,23 +31,23 @@
             <hr>
             <form action="#" id="loanform">
                 <h3><label for="title">Please select title</label></h3>
-                <select name="title" id="title">
+                <select name="title" id="title" required>
                     <option value="Select title" selected disabled>Select title</option>
                     <option value="Mr">Mr</option>
                     <option value="Mrs">Mrs</option>
                     <option value="Miss">Miss</option>
                 </select><br><br>
                 <h3><label for="firstName"> First name</label></h3>
-                <input type="text" name="firstName" id="firstName">
+                <input type="text" name="firstName" id="firstName" required>
                 <br><br>
                 <h3><label for="surName">Surname</label><br></h3>
-                <input type="text" name="surName" id="surName">               
+                <input type="text" name="surName" id="surName" required>               
                 <br><br>
                 <h3><label for="birthDate">Date of Birth</label></h3><br>
-                <input type="date" name="birthDate" id="birthDate" value="selected">
+                <input type="date" name="birthDate" id="birthDate" value="selected"required>
                 <br><br>
                 <h3><label for="identificationDoc">ID Number</label></h3>
-                <input type="text" name="identificationDoc" id="identificationDoc">
+                <input type="text" name="identificationDoc" id="identificationDoc" required>
                 <br><br>
                 <h3>Gender</h3>
                 <label for="male">Male</label>
@@ -95,13 +95,13 @@
                 <label for="addressDuration">4+ Years</label>
                 <br><br>
                 <h3>Gross monthly income</h3>
-                <input type="number" name="grossMonthlyIncome" id="grossMonthlyIncome" placeholder="Ksh 15,000" min="0">
+                <input type="number" name="grossMonthlyIncome" id="grossMonthlyIncome" placeholder="Ksh 15,000" min="0" required>
                 <br><br>
                 <h3>Monthly Rent / Mortgage</h3>
-                <input type="number" name="monthlyRent" id="monthlyRent"  placeholder="Ksh 15,000" min="0">
+                <input type="number" name="monthlyRent" id="monthlyRent"  placeholder="Ksh 15,000" min="0" required>
                 <br><br>
                 <h3>Select Loan Item</h3>
-                <select name="loanItem" id="loanItem">
+                <select name="loanItem" id="loanItem" required>
                     <option value="" disabled selected>Select item</option>
                     <option value="Honda Ace Tuff | Ksh 75,000">Honda Ace Tuff | Ksh 75,000</option>
                     <option value="Honda Ace CB125 | Ksh 80,000">Honda Ace CB125 | Ksh 80,000</option>
@@ -110,7 +110,7 @@
                 </select>
                 <br><br>
                 <h3>Down Payment Amount</h3>
-                <input type="number" name="downPayment" id="downPayment"  placeholder="Ksh 15,000" min="0">
+                <input type="number" name="downPayment" id="downPayment"  placeholder="Ksh 15,000" min="0" required>
                 <br><br>
                 <input type="checkbox" name="accurateInfo" id="accurateInfo" checked>
                 <label for="accurateInfo">I hereby agree that the information given is true, accurate and complete as of the date of this application submission.</label>
