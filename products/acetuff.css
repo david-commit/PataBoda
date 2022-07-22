@@ -99,6 +99,7 @@ nav ul li a:active{
 .specstable{
     width: 60%;
     margin: 20px auto;
+    
 }
 .specstable h2{
     text-align: center;
@@ -111,6 +112,11 @@ table, tr, td{
 td{
     width: 300px;
 }
+.specstable table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* ----END OF ACE TUFF PRODUCT---- */
 
