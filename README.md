@@ -7,6 +7,7 @@
 
 ## Table of Content
 
++ [Description](#Description)
 + [Problem Statement](#Problem-statement)
 + [Problem Solution](#problem-solution)
 + [Installation Requirement](#Installation)
@@ -15,6 +16,7 @@
 + [Licence](#licence)
 + [Authors Info](#author-Info)
 
+## Description
 
 ## Problem Statement
 <p>Asset financing has been a challenge for small businesses and even for individuals to improve their livelihoods. Unemployment is a significant issue in Kenya which stacks the metrics toward poverty as a result of lack of income. Businesses on the other hand pay hefty amounts of money to deliver their products through third parties thus significantly reducing their profit margin. Therefore, there is a need to bridge the gap that exists in the mass transportation and mobility sector in Kenya.</p>
