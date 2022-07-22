@@ -88,7 +88,8 @@ nav ul li a:active{
     text-align: left;
     text-decoration: none;
 }
-#customApply{
+
+.sidebarmenu a{
     color: white;
     text-decoration: none;
 }
