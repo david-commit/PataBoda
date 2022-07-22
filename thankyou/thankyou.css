@@ -72,6 +72,7 @@ nav ul li a:active{
 /* --end of menubar-- */
 
 
+
 .thank{
     text-align: center;
 }
@@ -80,43 +81,14 @@ nav ul li a:active{
     font-size: 400px;
 }
 
-h1{
+.thank h1{
 color: f6510f;
 padding-bottom: 20px;
 }
-p{
+.thank p{
     color: f6510f;
     padding-bottom: 60px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* --start of footer container-- */
